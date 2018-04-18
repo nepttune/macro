@@ -33,10 +33,10 @@ final class IconMacro extends \Latte\Macros\MacroSet
     {
         $el = \Nette\Utils\Html::el('i');
 
-        $style = $params['style'] ?? 's';
+        $type = $params['type'] ?? 's';
         $fw = $params['fw'] ?? true;
 
-        $el->addAttributes(['class' => "fa{$style} fa-{$icon}"]);
+        $el->addAttributes(['class' => "fa{$type} fa-{$icon}"]);
 
         if ($fw)
         {
