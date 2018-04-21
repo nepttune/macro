@@ -2,6 +2,13 @@
 
 :wrench: Latte macro for fontawesome
 
+![Packagist](https://img.shields.io/packagist/dt/nepttune/macro.svg)
+![Packagist](https://img.shields.io/packagist/v/nepttune/macro.svg)
+[![CommitsSinceTag](https://img.shields.io/github/commits-since/nepttune/macro/v1.0.1.svg?maxAge=600)]()
+
+[![Code Climate](https://codeclimate.com/github/nepttune/macro/badges/gpa.svg)](https://codeclimate.com/github/nepttune/macro)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nepttune/macro/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nepttune/macro/?branch=master)
+
 ## Introduction
 
 This package contains set of useful Latte macros.
