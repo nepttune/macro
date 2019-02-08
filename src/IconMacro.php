@@ -47,6 +47,26 @@ final class IconMacro extends \Latte\Macros\MacroSet
         {
             $el->appendAttribute('class', 'fa-'.$params['size']);
         }
+        
+        if (isset($params['spin']))
+        {
+            $el->appendAttribute('class', 'fa-spin');
+        }
+
+        if (isset($params['pulse']))
+        {
+            $el->appendAttribute('class', 'fa-pulse');
+        }
+
+        if (isset($params['rotate']))
+        {
+            $el->appendAttribute('class', 'fa-rotate-'.$params['rotate']);
+        }
+
+        if (isset($params['flip']))
+        {
+            $el->appendAttribute('class', 'fa-flip-'.$params['flip']);
+        }
 
         return $el;
     }
