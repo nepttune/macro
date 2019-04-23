@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "latte/latte": "^3.0"
+    "latte/latte": "^2.4 | ^3.0"
   },
   "autoload": {
     "psr-4": {
